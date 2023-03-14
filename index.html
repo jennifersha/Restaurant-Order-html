@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+<div id="main">
+    <h1>Restaurant</h1>
+    <label for="name">Full Name: </label>
+    <input id="name">
+    <br>
+    <label for="num">Phone Number: </label>
+    <input type="number" id="num">
+    <br>
+    <label for="location">Addresses: </label>
+    <input id="location">
+    <br><br>
+    <a>First Plate: </a><br>
+    <input type="checkbox" id="salad"  value="Salad" class="first">
+    <label for="salad">Salad</label><br>
+    <input type="checkbox" id="soap" value="Soap" class="first">
+    <label for="soap" >Soap</label><br>
+    <input type="checkbox" id="fries" value="Fries" class="first">
+    <label for="fries" >Fries</label><br>
+    <br>
+    <a>Second Plate: </a><br>
+    <input type="checkbox" id="burger"  value="Burger" class="second">
+    <label for="burger">Burger</label><br>
+    <input type="checkbox" id="pizza" value="Pizza" class="second">
+    <label for="pizza">Pizza</label><br>
+    <input type="checkbox" id="steak" value="Steak" class="second">
+    <label for="steak">Steak</label><br>
+    <input type="checkbox" id="shawarma" value="Shawarma" class="second">
+    <label for="shawarma">Shawarma</label><br><br>
+
+    <a>Desserts: </a><br>
+    <input type="checkbox" id="cheese"  value="cheese" class="third">
+    <label for="cheese">Cheese Cake</label><br>
+    <input type="checkbox" id="ice" value="ice" class="third">
+    <label for="ice">Ice Cream</label><br>
+    <input type="checkbox" id="chocolate" value="chocolate" class="third">
+    <label for="chocolate">Chocolate Moss</label><br>
+    <br><br>
+    <button id="order" onclick="onClick()">Order</button>
+    <div id="printOrder">
+
+    </div>
+</div>
+</body>
+</html>
